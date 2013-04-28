@@ -23,7 +23,7 @@ class UsuarioController extends AbstractActionController
     }
     public function usuarioAction(){
         $this->dbAdapter = $this->getServiceLocator()->get('Zend\Db\Adapter\Adapter');
-//        var_dump($this->dbAdapter);
+        var_dump($this->dbAdapter);
     }
     public function pruebaAction(){
     }
